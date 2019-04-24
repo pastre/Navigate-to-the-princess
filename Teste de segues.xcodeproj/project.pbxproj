@@ -14,6 +14,14 @@
 		D73F039D226FAECF00886261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73F039B226FAECF00886261 /* LaunchScreen.storyboard */; };
 		D73F03A8226FAECF00886261 /* Teste_de_seguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03A7226FAECF00886261 /* Teste_de_seguesTests.swift */; };
 		D73F03B3226FAECF00886261 /* Teste_de_seguesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03B2226FAECF00886261 /* Teste_de_seguesUITests.swift */; };
+		D73F03C1226FB23B00886261 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03C0226FB23B00886261 /* MainViewController.swift */; };
+		D73F03C3226FD6C600886261 /* MonsterBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03C2226FD6C600886261 /* MonsterBattleViewController.swift */; };
+		D73F03C5226FE22F00886261 /* BattleResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03C4226FE22F00886261 /* BattleResultViewController.swift */; };
+		D73F03C7226FEA2500886261 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03C6226FEA2500886261 /* Player.swift */; };
+		D73F03C92270856C00886261 /* HealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03C82270856C00886261 /* HealViewController.swift */; };
+		D73F03CB22708DC800886261 /* DragonBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03CA22708DC800886261 /* DragonBattleViewController.swift */; };
+		D73F03CD22708FA100886261 /* dragon_cute.png in Resources */ = {isa = PBXBuildFile; fileRef = D73F03CC22708FA100886261 /* dragon_cute.png */; };
+		D73F03CF227094B400886261 /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73F03CE227094B400886261 /* EndGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		D73F03AE226FAECF00886261 /* Teste de seguesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste de seguesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73F03B2226FAECF00886261 /* Teste_de_seguesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_de_seguesUITests.swift; sourceTree = "<group>"; };
 		D73F03B4226FAECF00886261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73F03C0226FB23B00886261 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D73F03C2226FD6C600886261 /* MonsterBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleViewController.swift; sourceTree = "<group>"; };
+		D73F03C4226FE22F00886261 /* BattleResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleResultViewController.swift; sourceTree = "<group>"; };
+		D73F03C6226FEA2500886261 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D73F03C82270856C00886261 /* HealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealViewController.swift; sourceTree = "<group>"; };
+		D73F03CA22708DC800886261 /* DragonBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBattleViewController.swift; sourceTree = "<group>"; };
+		D73F03CC22708FA100886261 /* dragon_cute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragon_cute.png; path = "../../../Library/Mobile Documents/WUGMZZ5K46~com~bohemiancoding~sketch/Documents/dragon_cute.png"; sourceTree = "<group>"; };
+		D73F03CE227094B400886261 /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +113,18 @@
 		D73F0391226FAECE00886261 /* Teste de segues */ = {
 			isa = PBXGroup;
 			children = (
-				D73F0392226FAECE00886261 /* AppDelegate.swift */,
 				D73F0394226FAECE00886261 /* ViewController.swift */,
+				D73F03C4226FE22F00886261 /* BattleResultViewController.swift */,
+				D73F03CE227094B400886261 /* EndGameViewController.swift */,
+				D73F03C2226FD6C600886261 /* MonsterBattleViewController.swift */,
+				D73F03C0226FB23B00886261 /* MainViewController.swift */,
+				D73F03C82270856C00886261 /* HealViewController.swift */,
+				D73F03CA22708DC800886261 /* DragonBattleViewController.swift */,
+				D73F03C6226FEA2500886261 /* Player.swift */,
 				D73F0396226FAECE00886261 /* Main.storyboard */,
+				D73F0392226FAECE00886261 /* AppDelegate.swift */,
 				D73F0399226FAECF00886261 /* Assets.xcassets */,
+				D73F03CC22708FA100886261 /* dragon_cute.png */,
 				D73F039B226FAECF00886261 /* LaunchScreen.storyboard */,
 				D73F039E226FAECF00886261 /* Info.plist */,
 			);
@@ -230,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D73F039D226FAECF00886261 /* LaunchScreen.storyboard in Resources */,
+				D73F03CD22708FA100886261 /* dragon_cute.png in Resources */,
 				D73F039A226FAECF00886261 /* Assets.xcassets in Resources */,
 				D73F0398226FAECE00886261 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73F03C1226FB23B00886261 /* MainViewController.swift in Sources */,
+				D73F03C5226FE22F00886261 /* BattleResultViewController.swift in Sources */,
+				D73F03CB22708DC800886261 /* DragonBattleViewController.swift in Sources */,
+				D73F03C3226FD6C600886261 /* MonsterBattleViewController.swift in Sources */,
 				D73F0395226FAECE00886261 /* ViewController.swift in Sources */,
+				D73F03C92270856C00886261 /* HealViewController.swift in Sources */,
+				D73F03C7226FEA2500886261 /* Player.swift in Sources */,
 				D73F0393226FAECE00886261 /* AppDelegate.swift in Sources */,
+				D73F03CF227094B400886261 /* EndGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
